@@ -7,8 +7,6 @@ nav:
   - Estado: status.md
   - Recepción:
       - Rack: rack.md
-      - Configuración de Habitaciones: checkin_habitaciones.md
-      - Gestión de Documentos: checkin_documentos.md
   - Check-In:
       - Proceso de Registro: checkin_proceso.md
       - Configuración de Habitaciones: checkin_habitaciones.md
