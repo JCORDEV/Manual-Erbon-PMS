@@ -9,19 +9,19 @@ Una vez en esta pantalla, encontrarás información organizada con distintos íc
 
 ---
 
-## **Significado de los Íconos en el Rack de UH's**
+## **Significado de los íconos en el Rack**
 
-### **Disponibilidad de Habitaciones**
+### **Disponibilidad de habitaciones**
 - 🏠 **Casitas Verdes**: Habitaciones **disponibles** para asignar en la fecha actual.
 - 🏠 **Casitas Rojas**: Habitaciones **ocupadas** en la fecha actual (con huéspedes registrados).
 
-### **Estados de Limpieza**
-- 🧹 **Vassoura Vermelha (Escoba Roja)**: La habitación está **SUCIA** y necesita ser limpiada.
-- 🧹 **Vassoura Laranja (Escoba Naranja)**: La habitación **está en proceso de limpieza**.
-- 🧹 **Vassoura Amarela (Escoba Amarilla)**: La habitación está **pendiente de verificación** para asegurarse de que está limpia.
-- 🧹 **Vassoura Verde (Escoba Verde)**: La habitación **ya está limpia** y lista para recibir huéspedes.
+### **Estados de limpieza**
+- 🧹 **Escoba Roja**: La habitación está **SUCIA** y necesita ser limpiada.
+- 🧹 **Escoba Naranja**: La habitación **está en proceso de limpieza**.
+- 🧹 **Escoba Amarilla**: La habitación está **pendiente de verificación** para asegurarse de que está limpia.
+- 🧹 **Escoba Verde**: La habitación **ya está limpia** y lista para recibir huéspedes.
 
-### **Movimientos Programados**
+### **Movimientos programados**
 - 👤⬇️ **Bonequito con flecha hacia abajo**: Indica una **llegada prevista** (Check-In programado).
 - 👤⬆️ **Bonequito con flecha hacia arriba**: Indica una **salida prevista** (Check-Out programado).
 
