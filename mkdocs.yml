@@ -7,8 +7,7 @@ nav:
   - Estado: status.md
   - Recepción:
       - Rack: rack.md
-  - Incluir walk-in:
-      - Walk-in: walkin.md
+      - Incluir walk-in: walkin.md
   - Check-In:
       - Proceso de Registro: checkin_proceso.md
       - Configuración de Habitaciones: checkin_habitaciones.md

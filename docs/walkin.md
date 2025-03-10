@@ -1,10 +1,10 @@
-# **¿Cómo crear una reserva?**
+# **Incluir walk-in**
 
 En el contexto de los sistemas de gestión hotelera (PMS, por sus siglas en inglés), el término "walk-in" se refiere a huéspedes que llegan al hotel sin una reserva previa. Por lo tanto, la función **Incluir Walk-in** en el menú de Erbon PMS está diseñada para gestionar de manera eficiente este tipo de situaciones, permitiendo al personal del hotel registrar y asignar habitaciones a estos huéspedes de forma rápida y organizada.
 
 ![alt](img/07.png)
 
-## **Campos y Descripción**  
+## **Campos y descripción**  
 
 ### **1. Datos Generales**  
 - **Check-in:** Fecha de llegada de la reserva.  
