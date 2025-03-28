@@ -1,34 +1,46 @@
-body {
-    background-color: #F5FAFD;
+:root  > * {
+    --md-primary-fg-color:        #015442 !important;
+    --md-primary-fg-color--light: #015442 !important;
+    --md-primary-fg-color--dark:  #015442 !important;
+
+    --md-accent-fg-color: #014133;
+    --md-accent-fg-color--transparent: #526cfe1a;
+    --md-accent-bg-color: #fff;
+    --md-accent-bg-color--light: #ffffffb3;
 }
 
-/* Cambiar el color de fondo del navbar */
-.md-header, .md-tabs {
-    background-color: #015442 !important; /* Color representativo del hotel */
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+    background-color: #014133d3;
+    color: #fff !important;
+    padding: .5rem .5rem;
 }
 
-/* Cambiar el color del texto en el navbar */
-.md-header__title, 
-.md-header__button, 
-.md-tabs__link {
-    color: #ffffff !important; /* Blanco para el texto */
+.md-nav__item .md-nav__link:hover {
+    /* color: #ffffff !important; */
 }
 
-/* Cambiar el color de los enlaces del navbar cuando están activos */
-.md-tabs__link--active {
-    background-color: #01382E !important; /* Color más oscuro para el estado activo */
+.md-nav__item .md-nav__link--active:hover, 
+.md-nav__item .md-nav__link--active code {
+    color: #fff;
+}
+
+/* Solo cambia el hover del enlace activo */
+.md-nav__item .md-nav__link--active:hover, 
+.md-nav__item .md-nav__link--active code:hover {
+    background-color: #00695c !important;
     color: #ffffff !important;
 }
 
-@media screen and (max-width: 76.2344em) {
-    .md-nav--primary .md-nav__title[for=__drawer] {
-        background-color: #015442 !important;
-        color: var(--md-primary-bg-color);
-        font-weight: 700;
-    }
+/* Cambia el hover de todos los enlaces excepto los activos */
+.md-nav__item .md-nav__link:not(.md-nav__link--active):hover {
+    color: #058d70 !important;
 }
 
-.md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
-        background: #F5FAFD !important;
-        box-shadow: 0 0 .4rem .4rem #F5FAFD; 
+
+.md-nav--lifted>.md-nav__list>.md-nav__item--active.md-nav__item--section {
+    font-size: 1rem;
+}
+
+.md-grid {
+    max-width: 1600px; 
 }
